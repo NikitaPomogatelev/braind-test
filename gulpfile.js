@@ -163,6 +163,8 @@ const stylesBuild = () => {
 
 }
 
+exports.stylesBuild = stylesBuild;
+
 const tinypng = () => {
     // return src('./src/assets/img/*.{jpg,jpeg,png')
     return src(['./src/assets/img/**.jpg', './src/assets/img/**.png', './src/assets/img/**.jpeg'])
