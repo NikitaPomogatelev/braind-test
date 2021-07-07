@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Lab Grotesque';
+    src:    local('Lab Grotesque Medium'), local('Lab-Grotesque-Medium'),
+        url('../fonts/LabGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/LabGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src:    local('Roboto Regular'), local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:    local('Open Sans Regular'), local('Open-Sans-Regular'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:    local('Open Sans Bold'), local('Open-Sans-Bold'),
+        url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@mixin lab-medium {
+    font-family: 'Lab Grotesque', sans-serif;
+    font-weight: 500;
+}
+@mixin roboto-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+@mixin opensans-regular {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+@mixin opensans-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+// 100: Thin;
+// 200: Extra Light (Ultra Light);
+// 300: Light;
+// 400: Normal;
+// 500: Medium;
+// 600: Semi Bold (Demi Bold);
+// 700: Bold;
+// 800: Extra Bold (Ultra Bold);
+// 900: Black (Heavy).
